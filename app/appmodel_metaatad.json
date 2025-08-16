@@ -1,0 +1,23 @@
+{
+  "model_type": "RandomForestRegressor",
+  "version": "1.0",
+  "features": {
+    "categorical": [
+      "gender",
+      "category_name",
+      "payment_method",
+      "city"
+    ],
+    "numeric": [
+      "quantity",
+      "price",
+      "age",
+      "price_per_item"
+    ]
+  },
+  "performance": {
+    "MAE": 64.97490364774295,
+    "RMSE": 79.83195665676031,
+    "R2": 0.6548372478462323
+  }
+}
